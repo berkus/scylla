@@ -15,7 +15,7 @@ git submodule update --init --recursive
 * Installing required packages:
 
 ```
-sudo dnf install yaml-cpp-devel lz4-devel zlib-devel snappy-devel jsoncpp-devel thrift-devel antlr3-tool antlr3-C++-devel libasan libubsan gcc-c++ gnutls-devel ninja-build ragel libaio-devel cryptopp-devel xfsprogs-devel numactl-devel hwloc-devel libpciaccess-devel libxml2-devel python3-pyparsing lksctp-tools-devel protobuf-devel protobuf-compiler systemd-devel libunwind-devel
+brew install yaml-cpp lz4 snappy jsoncpp thrift libantlr3c ragel cryptopp libxml2 protobuf libunwind-headers
 ```
 
 * Build Scylla
