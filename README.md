@@ -15,7 +15,7 @@ git submodule update --init --recursive
 * Installing required packages:
 
 ```
-brew install yaml-cpp lz4 snappy jsoncpp thrift libantlr3c ragel cryptopp libxml2 protobuf libunwind-headers
+brew install yaml-cpp lz4 snappy jsoncpp thrift libantlr3c ragel cryptopp libxml2 protobuf libunwind-headers python3
 ```
 
 * Build Scylla
